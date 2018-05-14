@@ -1,5 +1,5 @@
 # University repository
-This repository has been created to collect the required material to set up DevTest Labs in Univerisities. This is useful both for IT admin and students because the former won't have to maintain physical machines, the latter will always have fresh machines available both for classes and self-service usage.
+This repository has been created to collect the required material to set up DevTest Labs in Univerisities. This is useful both for IT admin and students because the former won't have to maintain physical machines, the later will always have fresh machines available both for classes and self-service usage.
 
 
 ## Scenario Scripts Folder
@@ -16,7 +16,7 @@ This folder contains:
     - [Remove-GroupPermissionsDevTestLab](ScenarioScripts/Remove-GroupPermissionsDevTestLab.ps1): This script removes the specified role from the AD Group in the DevTest Lab.
     - [Test-AzureDtlVMs](ScenarioScripts/Test-AzureDtlVMs.ps1): Given LabName and LabSize, this script verifies how many Azure virtual machines are inside the DevTest Lab and throws an error inside the logs when the number is greater or lower than size +/- VMDelta. 
 
-## Roles Foler
+## Roles Folder
 - [Roles folder which contains the json file which specifies the actions that a University user can take on a VM](Roles)
 
 ## Shutdown Scripts folder
